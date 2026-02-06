@@ -74,7 +74,7 @@ function HeroSection() {
           initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.2 }}
           className="mb-6 inline-flex items-center gap-2 px-4 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-xs uppercase tracking-widest text-amber-400"
         >
-          <Sparkles className="w-3 h-3" /> Atelier Digital Valaisan
+          <Sparkles className="w-3 h-3" /> Le futur du Faire-Part
         </motion.div>
         
         <h1 className="text-6xl md:text-9xl font-serif font-thin mb-8 text-white tracking-tighter">

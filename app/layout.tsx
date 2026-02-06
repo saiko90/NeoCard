@@ -17,7 +17,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: 'ELARA - Atelier Digital Valaisan',
+  title: 'NeoCard - Le futur du Faire-Part',
   description: 'Expériences web immersives pour mariages et grands moments de vie.',
 };
 
