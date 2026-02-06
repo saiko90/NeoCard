@@ -1,16 +1,20 @@
 'use client';
 
-import React from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import React, { useState } from 'react';
+import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { Sparkles, Heart, Flame, Baby, Crown, ChevronDown } from 'lucide-react';
+// Vérifie bien que ce chemin est correct selon où tu as rangé le fichier
+import MariageModal from './components/MariageModal'; 
 
 const BRAND = {
   name: "NeoCard",
   tagline: "Architecte de vos Souvenirs",
-  email: "contact@NeoCard.ch"
+  email: "contact@neocard.ch"
 };
 
 export default function LandingPage() {
+  const [showMariage, setShowMariage] = useState(false);
+
   return (
     <div className="bg-black text-slate-200 font-sans selection:bg-amber-500 selection:text-black overflow-x-hidden">
       
@@ -18,7 +22,8 @@ export default function LandingPage() {
       <HeroSection />
 
       {/* --- CHAPITRE 1 : GRANDEUR (Les Célébrations) --- */}
-      <GrandeurSection />
+      {/* On passe la fonction pour ouvrir le modal ici */}
+      <GrandeurSection onOpenMariage={() => setShowMariage(true)} />
 
       {/* --- CHAPITRE 2 : DOUCEUR (La Famille) --- */}
       <FamilySection />
@@ -31,6 +36,11 @@ export default function LandingPage() {
 
       {/* --- L'ARTISAN (Ta section présentation) --- */}
       <ArtisanSection />
+
+      {/* --- MODALE (S'affiche si showMariage est true) --- */}
+      <AnimatePresence>
+        {showMariage && <MariageModal onClose={() => setShowMariage(false)} />}
+      </AnimatePresence>
 
       {/* --- FOOTER --- */}
       <footer className="py-24 bg-slate-950 text-center border-t border-white/5">
@@ -87,7 +97,8 @@ function HeroSection() {
   );
 }
 
-function GrandeurSection() {
+// Correction ici : Ajout de la prop onOpenMariage
+function GrandeurSection({ onOpenMariage }: { onOpenMariage: () => void }) {
   return (
     <section className="py-32 px-4 relative z-10 bg-gradient-to-b from-black to-slate-900">
       <div className="max-w-6xl mx-auto">
@@ -98,11 +109,13 @@ function GrandeurSection() {
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+          {/* Correction ici : Nettoyage et ajout du onClick */}
           <FeatureCard 
             title="Le Mariage" 
             price="Dès 1'900 CHF"
             desc="L'offre signature. Timeline de votre histoire, Livre d'or Audio, Galerie HD, RSVP intelligent."
             tags={['Best-Seller', 'Audio']}
+            onClick={onOpenMariage} 
           />
           <FeatureCard 
             title="Bar Mitzvah" 
@@ -264,7 +277,7 @@ function ArtisanSection() {
 
 // --- UTILITAIRES ---
 
-function SectionHeader({ title, subtitle, icon, align = 'left' }) {
+function SectionHeader({ title, subtitle, icon, align = 'left' }: any) {
   return (
     <div className={`mb-16 flex flex-col gap-4 ${align === 'right' ? 'md:text-right items-end' : 'md:text-left items-start'} text-center items-center`}>
       <div className="p-3 bg-white/5 rounded-full border border-white/10 w-fit">{icon}</div>
@@ -276,7 +289,8 @@ function SectionHeader({ title, subtitle, icon, align = 'left' }) {
   );
 }
 
-function FeatureCard({ title, price, desc, tags, color = 'amber' }) {
+// Correction ici : Ajout de onClick dans les props et application sur la div
+function FeatureCard({ title, price, desc, tags, color = 'amber', onClick }: any) {
   const isRose = color === 'rose';
   const accentColor = isRose ? 'text-rose-400' : 'text-amber-400';
   const borderColor = isRose ? 'group-hover:border-rose-500/30' : 'group-hover:border-amber-500/30';
@@ -286,7 +300,8 @@ function FeatureCard({ title, price, desc, tags, color = 'amber' }) {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className={`group bg-white/5 border border-white/10 p-8 rounded-sm hover:bg-white/10 transition-all duration-300 ${borderColor}`}
+      onClick={onClick}
+      className={`group bg-white/5 border border-white/10 p-8 rounded-sm hover:bg-white/10 transition-all duration-300 ${borderColor} ${onClick ? 'cursor-pointer' : ''}`}
     >
       <div className="flex justify-between items-start mb-4">
         <h3 className="text-2xl font-serif text-white">{title}</h3>
@@ -301,7 +316,7 @@ function FeatureCard({ title, price, desc, tags, color = 'amber' }) {
         {desc}
       </p>
       <div className="w-full h-px bg-white/5 group-hover:bg-white/20 transition-colors" />
-      <div className="mt-4 flex items-center gap-2 text-xs text-slate-500 group-hover:text-white transition-colors cursor-pointer">
+      <div className="mt-4 flex items-center gap-2 text-xs text-slate-500 group-hover:text-white transition-colors">
         <span>Voir détails</span> <div className="w-4 h-px bg-current" />
       </div>
     </motion.div>
