@@ -17,7 +17,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: 'NeoCard - Le futur du Faire-Part',
+  title: 'NeoCard - Le Faire-Part digital numérique',
   description: 'Expériences web immersives pour mariages et grands moments de vie.',
 };
 
