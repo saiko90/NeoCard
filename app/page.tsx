@@ -7,6 +7,19 @@ import {
   Building2, GlassWater, X, Send, Loader2, CheckCircle2
 } from 'lucide-react';
 
+// --- IMPORTS MODALS ---
+import MariageModal from './components/MariageModal';
+import BarMitzvahModal from './components/BarmitzvahModal';
+import BirthdayModal from './components/BirthdayModal';
+import RetraiteModal from './components/RetraiteModal';
+import NaissanceModal from './components/NaissanceModal';
+import BaptemeModal from './components/BaptemeModal';
+import CommunionModal from './components/CommunionModal';
+import ProposalModal from './components/ProposalModal';
+import EVJFModal from './components/EvjfModal';
+import MemorialModal from './components/MemorialModal';
+import CorporateModal from './components/CorporateModal';
+
 // --- CONFIGURATION ---
 const BRAND = {
   name: "NeoCard",
@@ -164,8 +177,18 @@ export default function LandingPage() {
       </footer>
 
       <AnimatePresence>
+        {activeModal === 'mariage' && <MariageModal onClose={closeModal} />}
+        {activeModal === 'barmitzvah' && <BarMitzvahModal onClose={closeModal} />}
+        {activeModal === 'birthday' && <BirthdayModal onClose={closeModal} />}
+        {activeModal === 'retraite' && <RetraiteModal onClose={closeModal} />}
+        {activeModal === 'naissance' && <NaissanceModal onClose={closeModal} />}
+        {activeModal === 'bapteme' && <BaptemeModal onClose={closeModal} />}
+        {activeModal === 'communion' && <CommunionModal onClose={closeModal} />}
+        {activeModal === 'proposal' && <ProposalModal onClose={closeModal} />}
+        {activeModal === 'evjf' && <EVJFModal onClose={closeModal} />}
+        {activeModal === 'memorial' && <MemorialModal onClose={closeModal} />}
+        {activeModal === 'corporate' && <CorporateModal onClose={closeModal} />}
         {activeModal === 'contact' && <ContactModal onClose={closeModal} />}
-        {/* Tes autres modals importées ici restent inchangées */}
       </AnimatePresence>
     </div>
   );
