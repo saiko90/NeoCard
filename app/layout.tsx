@@ -1,8 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Playfair_Display, Lato } from 'next/font/google';
+import { GoogleTagManager } from '@next/third-parties/google'; // Importation du composant officiel
 
-// Configuration des polices "Luxe"
 const playfair = Playfair_Display({ 
   subsets: ['latin'],
   variable: '--font-serif',
@@ -23,8 +23,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    // J'ai ajouté 'scroll-smooth' ici pour le défilement doux
     <html lang="fr" className={`${playfair.variable} ${lato.variable} scroll-smooth`}>
+      {/* Le composant GoogleTagManager s'occupe d'insérer le script dans le <head> 
+          et le noscript au bon endroit automatiquement.
+      */}
+      <GoogleTagManager gtmId="GTM-PJLHPWLK" />
+      
       <body className="bg-black font-sans antialiased text-slate-200">
         {children}
       </body>
