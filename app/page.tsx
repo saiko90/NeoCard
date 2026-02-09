@@ -24,7 +24,7 @@ type ModalKey =
   | 'contact'
   | null;
 
-// --- COMPOSANT FORMULAIRE DE CONTACT (n8n ready) ---
+// --- COMPOSANT FORMULAIRE DE CONTACT (n8n) ---
 function ContactModal({ onClose }: { onClose: () => void }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
 
