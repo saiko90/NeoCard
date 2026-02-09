@@ -12,7 +12,7 @@ const BRAND = {
   name: "NeoCard",
   tagline: "Architecte de vos Souvenirs",
   email: "contact@neocard.ch",
-  webhookUrl: "https://n8n-latest-fsq5.onrender.com/webhook/contactneocard"
+  webhookUrl: "/api/contact"
 };
 
 // --- TYPES ---
