@@ -57,29 +57,28 @@ const baseUrl = 'https://www.neocard.ch';
     },
 
     // OpenGraph : Pour que le partage sur WhatsApp, iMessage et LinkedIn soit magnifique
-    openGraph: {
+   openGraph: {
       title: t('title'),
       description: t('description'),
       url: `${baseUrl}/${locale}`,
       siteName: 'NeoCard',
       locale: locale,
       type: 'website',
-      // images: [
-      //   {
-      //     url: '/og-image.jpg', // Un beau visuel 1200x630px que tu devras mettre dans le dossier /public
-      //     width: 1200,
-      //     height: 630,
-      //     alt: 'NeoCard - Faire-part digitaux',
-      //   },
-      // ],
+      images: [
+        {
+          url: '/og-image.png', 
+          width: 1200,
+          height: 630,
+          alt: 'NeoCard - Faire-part digitaux immersifs',
+        },
+      ],
     },
-    
-    // Pour Twitter / X
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-    }
+      images: ['/og-image.jpg'], 
+    },
   };
 }
 
