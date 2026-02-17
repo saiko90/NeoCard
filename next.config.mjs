@@ -1,4 +1,6 @@
-const withNextIntl = require('next-intl/plugin')('./i18n.ts');
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,11 +10,9 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // --- NOUVEAU BLOC : EN-TÊTES DE SÉCURITÉ ---
   async headers() {
     return [
       {
-        // Applique ces règles à absolument toutes les pages du site
         source: '/(.*)',
         headers: [
           {
@@ -36,7 +36,6 @@ const nextConfig = {
             value: 'same-origin'
           },
           {
-            // Protection XSS basique (sans casser Framer Motion ni Google Tag Manager)
             key: 'Content-Security-Policy',
             value: "upgrade-insecure-requests; frame-ancestors 'self';"
           }
@@ -46,4 +45,4 @@ const nextConfig = {
   }
 };
 
-module.exports = withNextIntl(nextConfig);
+export default withNextIntl(nextConfig);
