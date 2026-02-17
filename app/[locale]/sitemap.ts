@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://neocard.ch';
+// À modifier dans layout.tsx ET dans sitemap.ts
+  const baseUrl = 'https://www.neocard.ch';
   const locales = ['fr', 'en', 'de', 'it', 'he', 'ru'];
 
   // On crée la liste des langues pour les balises "hreflang"

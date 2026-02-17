@@ -35,7 +35,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'SEO' });
 
   // L'URL de base de ton site (à adapter si tu as un autre domaine principal)
-  const baseUrl = 'https://neocard.ch';
+const baseUrl = 'https://www.neocard.ch';
 
   return {
     title: t('title'),
