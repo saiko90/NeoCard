@@ -1,0 +1,146 @@
+{"SEO": {
+    "title": "NeoCard - L'artigiano delle partecipazioni digitali in Svizzera",
+    "description": "Scopri il futuro delle partecipazioni. Esperienze web immersive e design haute couture per matrimoni, nascite ed eventi corporate."
+  },
+  "Common": {
+    "see_details": "Vedi dettagli",
+    "based_in": "Con sede nel Canton Vallese, Svizzera"
+  },
+  "Hero": {
+    "tagline": "La partecipazione digitale",
+    "desc_part1": "Trasformiamo i grandi momenti della tua vita in",
+    "desc_highlight": "esperienze web immersive",
+    "desc_part2": "Benvenuti nel futuro delle partecipazioni.",
+    "button": "Partecipa all'Operazione Golden Ticket 2026"
+  },
+  "Grandeur": {
+    "title": "Grandezza & Celebrazioni",
+    "subtitle": "Quando la festa diventa indimenticabile",
+    "mariage_title": "Matrimonio",
+    "mariage_price": "Da 950 CHF",
+    "mariage_desc": "L'offerta esclusiva. Timeline della tua storia, Guestbook Audio, Galleria HD, RSVP intelligente.",
+    "mariage_tag1": "I più venduti",
+    "mariage_tag2": "Audio",
+    "bar_title": "Bar Mitzvah",
+    "bar_price": "Da 950 CHF",
+    "bar_desc": "L'unione tra tradizione e digitale. Spiega la Parashah, gestisci ospiti internazionali, esalta la festa.",
+    "bar_tag1": "Comunità",
+    "bar_tag2": "Prestigio",
+    "anniv_title": "Compleanno & Giubileo",
+    "anniv_price": "Da 650 CHF",
+    "anniv_desc": "Una retrospettiva interattiva di una vita di ricordi. Quiz, playlist collaborativa e cassa integrata.",
+    "anniv_tag1": "Popolare",
+    "anniv_tag2": "Divertimento",
+    "retraite_title": "Pensionamento",
+    "retraite_price": "Da 550 CHF",
+    "retraite_desc": "Guestbook video dei colleghi, retrospettiva di carriera e conto alla rovescia verso la libertà.",
+    "retraite_tag1": "Azienda"
+  },
+  "Family": {
+    "title": "Dolcezza & Famiglia",
+    "subtitle": "I primi capitoli di una vita",
+    "naissance_title": "Nascita",
+    "naissance_price": "Da 450 CHF",
+    "naissance_desc": "Molto più di un annuncio. Statistiche animate del bambino, prime foto, lista nascita integrata.",
+    "naissance_tag": "Popolare",
+    "bapteme_title": "Battesimo",
+    "bapteme_price": "Da 450 CHF",
+    "bapteme_desc": "Invita la famiglia con eleganza. Info cerimonia, mappa GPS e raccolta di auguri per il bambino.",
+    "bapteme_tag": "Spirituale",
+    "communion_title": "Comunione",
+    "communion_price": "Da 450 CHF",
+    "communion_desc": "Una pagina luminosa per segnare questo importante traguardo. Semplice, pura, efficace.",
+    "communion_tag": "Famiglia"
+  },
+  "EVJF": {
+    "section_title": "LA FOLLIA",
+    "subtitle": "Addio al Celibato / Nubilato",
+    "desc_part1": "L'ultima grande avventura prima del grande salto.",
+    "desc_part2": "Una pagina segreta con programma a sorpresa, sfide interattive, cassa comune e rivelazione progressiva. Lo strumento perfetto per i testimoni organizzatori.",
+    "button": "Scopri l'Offerta — Da 450 CHF",
+    "demo": "Vedi la demo live"
+  },
+  "Love": {
+    "section_title": "LA SCINTILLA",
+    "subtitle": "La proposta di matrimonio definitiva",
+    "desc_part1": "Tu hai l'anello, noi abbiamo lo scenario.",
+    "desc_part2": "Un'esperienza mobile interattiva che fa salire la suspense fino alla fatidica domanda. Effetto \"Wow\" e lacrime di gioia garantiti.",
+    "button": "Scopri l'Offerta — Da 590 CHF",
+    "demo": "Vedi la demo su mobile"
+  },
+  "Corporate": {
+    "title": "Professionale & Corporate",
+    "subtitle": "L'eccellenza al servizio della tua immagine",
+    "event_title": "Evento Corporate",
+    "event_price": "Da 750 CHF",
+    "event_desc": "Conferenze, serate di gala, lanci di prodotto — un sito per eventi con registrazioni, agenda interattiva e branding completo.",
+    "event_tag1": "Business",
+    "event_tag2": "Premium",
+    "retraite_title": "Pensionamento Pro",
+    "retraite_price": "Da 550 CHF",
+    "retraite_desc": "Regala al tuo collega un'immersiva retrospettiva di carriera. Il regalo collettivo che lascia il segno.",
+    "retraite_tag1": "Team",
+    "retraite_tag2": "Cassa"
+  },
+  "Memory": {
+    "label": "Spazio Memoria",
+    "title": "L'OMAGGIO",
+    "desc_part1": "Perché la carta di giornale sbiadisce, ma il web resta.",
+    "desc_part2": "Offri alle famiglie un santuario perpetuo: biografia, galleria fotografica e la nostra esclusiva funzione di",
+    "highlight": "Candele Virtuali",
+    "button": "Scopri l'offerta Memoriale (da 750 CHF)",
+    "demo_card_label": "In memoria di",
+    "demo_link": "Vedi la demo completa"
+  },
+  "Artisan": {
+    "title": "L'Artigiano dietro i tuoi ricordi",
+    "quote_part1": "\"Sono Michaël, sviluppatore e creativo basato in Vallese. Ho creato",
+    "quote_highlight": "NeoCard",
+    "quote_part2": "con una convinzione: i tuoi grandi momenti meritano di meglio che un gruppo WhatsApp o una partecipazione che finisce nella spazzatura.\"",
+    "tech": "— Tecnologia Next.js, Design Haute Couture, Hosting Svizzero."
+  },
+  "Footer": {
+    "desc": "La tua storia merita la migliore vetrina. Incontriamoci per discutere del tuo evento.",
+    "btn_quote": "Richiedi un preventivo",
+    "btn_pricing": "Vedi i Prezzi",
+    "legal_link": "Note Legali & Privacy (LPD)"
+  },
+  "Modals": {
+    "pricing_title": "Tariffe",
+    "legal_title": "Note Legali & Privacy",
+    "contact_success_title": "Inviato con successo!",
+    "contact_success_desc": "Michaël ha ricevuto la tua richiesta.",
+    "contact_title": "Un progetto?",
+    "contact_subtitle": "Descrivi i tuoi desideri, io mi occuperò del resto.",
+    "form_name": "Nome",
+    "form_name_ph": "Il tuo nome",
+    "form_email": "Email",
+    "form_email_ph": "tua@email.com",
+    "form_message": "Messaggio",
+    "form_message_ph": "Dettagli dell'evento...",
+    "form_btn": "Invia la mia richiesta",
+    "form_error": "Errore di connessione al server."
+  },
+  "LegalText": {
+    "section1_title": "1. Impressum",
+    "section1_desc": "Ai sensi dell'articolo 3 della Legge federale contro la concorrenza sleale (LCSl):",
+    "editor": "Editore:",
+    "commercial_name": "Nome commerciale:",
+    "address": "Indirizzo:",
+    "contact": "Contatto:",
+    "section2_title": "2. Hosting",
+    "section2_desc": "L'hosting di questo sito e dei dati è fornito tramite le infrastrutture sicure di Vercel Inc., garantendo il rispetto dei moderni standard di sicurezza.",
+    "section3_title": "3. Informativa sulla Privacy (LPD 2023)",
+    "section3_desc": "Ai sensi della nuova Legge federale sulla protezione dei dati (nLPD):",
+    "collect": "Raccolta:",
+    "collect_desc": "Vengono raccolti solo i dati trasmessi volontariamente tramite i nostri moduli.",
+    "purpose": "Finalità:",
+    "purpose_desc": "Elaborazione dei preventivi, creazione dei tuoi progetti digitali e comunicazioni relative alle nostre operazioni eccezionali.",
+    "confidentiality": "Riservatezza:",
+    "confidentiality_desc": "I tuoi dati non saranno mai venduti. Sono trattati in modo confidenziale tramite i nostri strumenti interni.",
+    "rights": "Diritti:",
+    "rights_desc": "Puoi richiedere l'accesso, la modifica o la cancellazione dei tuoi dati contattandoci all'indirizzo",
+    "section4_title": "4. Proprietà Intellettuale",
+    "section4_desc": "I design, i codici, le fotografie e i testi presenti su neocard.ch sono di proprietà di Michaël Kaeser. È vietata qualsiasi riproduzione non autorizzata."
+  }
+}

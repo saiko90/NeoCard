@@ -1,0 +1,147 @@
+{
+    "SEO": {
+    "title": "NeoCard - Premium Digital Invitations & Web Experiences",
+    "description": "Discover the future of invitations. Immersive web experiences and haute couture designs for weddings, births, and corporate events."
+  },
+  "Common": {
+    "see_details": "View details",
+    "based_in": "Based in Valais, Switzerland"
+  },
+  "Hero": {
+    "tagline": "The digital invitation",
+    "desc_part1": "We transform your life's greatest moments into",
+    "desc_highlight": "immersive web experiences",
+    "desc_part2": "Welcome to the future of invitations.",
+    "button": "Join the 2026 Golden Ticket Operation"
+  },
+  "Grandeur": {
+    "title": "Grandeur & Celebrations",
+    "subtitle": "When the party becomes unforgettable",
+    "mariage_title": "Wedding",
+    "mariage_price": "From 950 CHF",
+    "mariage_desc": "The signature offer. Timeline of your story, Audio Guestbook, HD Gallery, smart RSVP.",
+    "mariage_tag1": "Best-Seller",
+    "mariage_tag2": "Audio",
+    "bar_title": "Bar Mitzvah",
+    "bar_price": "From 950 CHF",
+    "bar_desc": "The alliance of tradition and digital. Explain the Parasha, manage international guests, elevate the celebration.",
+    "bar_tag1": "Community",
+    "bar_tag2": "Prestige",
+    "anniv_title": "Birthday & Jubilee",
+    "anniv_price": "From 650 CHF",
+    "anniv_desc": "An interactive retrospective of a lifetime of memories. Quiz, collaborative playlist and integrated fund.",
+    "anniv_tag1": "Popular",
+    "anniv_tag2": "Fun",
+    "retraite_title": "Retirement",
+    "retraite_price": "From 550 CHF",
+    "retraite_desc": "Video guestbook from colleagues, career retrospective and countdown to freedom.",
+    "retraite_tag1": "Corporate"
+  },
+  "Family": {
+    "title": "Sweetness & Family",
+    "subtitle": "The first chapters of a life",
+    "naissance_title": "Birth",
+    "naissance_price": "From 450 CHF",
+    "naissance_desc": "More than an invitation. Animated baby stats, first photos, integrated baby registry.",
+    "naissance_tag": "Popular",
+    "bapteme_title": "Baptism",
+    "bapteme_price": "From 450 CHF",
+    "bapteme_desc": "Invite family with elegance. Ceremony info, GPS map, and wish collection for the child.",
+    "bapteme_tag": "Spiritual",
+    "communion_title": "Communion",
+    "communion_price": "From 450 CHF",
+    "communion_desc": "A luminous page to mark this important milestone. Simple, pure, effective.",
+    "communion_tag": "Family"
+  },
+  "EVJF": {
+    "section_title": "THE MADNESS",
+    "subtitle": "Bachelor / Bachelorette Party",
+    "desc_part1": "The last hurrah before the big leap.",
+    "desc_part2": "A secret page with a surprise program, interactive challenges, shared fund and progressive revelation. The perfect tool for organizing witnesses.",
+    "button": "Discover the Offer — From 450 CHF",
+    "demo": "See the live demo"
+  },
+  "Love": {
+    "section_title": "THE SPARK",
+    "subtitle": "The Ultimate Marriage Proposal",
+    "desc_part1": "You have the ring, we have the scenario.",
+    "desc_part2": "An interactive mobile experience that builds suspense until the fateful question. 'Wow' effect and tears of joy guaranteed.",
+    "button": "Discover the Offer — From 590 CHF",
+    "demo": "See the demo on mobile"
+  },
+  "Corporate": {
+    "title": "Professional & Corporate",
+    "subtitle": "Excellence at the service of your image",
+    "event_title": "Corporate Event",
+    "event_price": "From 750 CHF",
+    "event_desc": "Conferences, galas, product launches — an event website with registrations, interactive agenda and full branding.",
+    "event_tag1": "Business",
+    "event_tag2": "Premium",
+    "retraite_title": "Pro Retirement",
+    "retraite_price": "From 550 CHF",
+    "retraite_desc": "Give your colleague an immersive career retrospective. The collective gift that leaves a mark.",
+    "retraite_tag1": "Team",
+    "retraite_tag2": "Fund"
+  },
+  "Memory": {
+    "label": "Memorial Space",
+    "title": "THE TRIBUTE",
+    "desc_part1": "Because newsprint fades, but the web remains.",
+    "desc_part2": "Offer families a perpetual sanctuary: biography, photo gallery, and our exclusive feature of",
+    "highlight": "Virtual Candles",
+    "button": "Discover the Memorial offer (from 750 CHF)",
+    "demo_card_label": "In memory of",
+    "demo_link": "See the full demo"
+  },
+  "Artisan": {
+    "title": "The Artisan behind your memories",
+    "quote_part1": "\"I am Michaël, a developer and creative based in Valais. I created",
+    "quote_highlight": "NeoCard",
+    "quote_part2": "with one conviction: your great moments deserve better than a WhatsApp group or an invitation that ends up in the trash.\"",
+    "tech": "— Next.js Technology, Haute Couture Design, Swiss Hosting."
+  },
+  "Footer": {
+    "desc": "Your story deserves the best showcase. Let's meet to discuss your event.",
+    "btn_quote": "Request a quote",
+    "btn_pricing": "View Pricing",
+    "legal_link": "Legal Notice & Privacy Policy (nFADP)"
+  },
+  "Modals": {
+    "pricing_title": "Pricing",
+    "legal_title": "Legal Notice & Privacy",
+    "contact_success_title": "Sent successfully!",
+    "contact_success_desc": "Michaël has received your request.",
+    "contact_title": "A project?",
+    "contact_subtitle": "Describe your desires, I'll take care of the rest.",
+    "form_name": "Name",
+    "form_name_ph": "Your name",
+    "form_email": "Email",
+    "form_email_ph": "your@email.com",
+    "form_message": "Message",
+    "form_message_ph": "Event details...",
+    "form_btn": "Send my request",
+    "form_error": "Connection error with the server."
+  },
+  "LegalText": {
+    "section1_title": "1. Impressum",
+    "section1_desc": "In accordance with Article 3 of the Swiss Federal Act against Unfair Competition (UCA):",
+    "editor": "Publisher:",
+    "commercial_name": "Trade name:",
+    "address": "Address:",
+    "contact": "Contact:",
+    "section2_title": "2. Hosting",
+    "section2_desc": "The hosting of this site and data is provided via the secure infrastructure of Vercel Inc., guaranteeing compliance with modern security standards.",
+    "section3_title": "3. Privacy Policy (nFADP 2023)",
+    "section3_desc": "Under the new Federal Act on Data Protection (nFADP):",
+    "collect": "Collection:",
+    "collect_desc": "Only data voluntarily transmitted via our forms is collected.",
+    "purpose": "Purpose:",
+    "purpose_desc": "Processing your quotes, creating your digital projects, and communication related to our exceptional operations.",
+    "confidentiality": "Confidentiality:",
+    "confidentiality_desc": "Your data will never be sold. It is treated confidentially via our internal tools.",
+    "rights": "Rights:",
+    "rights_desc": "You can request access, modification, or deletion of your data by contacting us at",
+    "section4_title": "4. Intellectual Property",
+    "section4_desc": "The designs, codes, photographs, and texts on neocard.ch are the property of Michaël Kaeser. Any unauthorized reproduction is prohibited."
+  }
+}

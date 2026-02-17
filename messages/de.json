@@ -1,0 +1,146 @@
+{"SEO": {
+    "title": "NeoCard - Digitale Premium-Einladungen aus der Schweiz",
+    "description": "Entdecken Sie die Zukunft der Einladungen. Immersive Web-Erlebnisse und Haute-Couture-Designs für Hochzeiten, Geburten und Firmenevents."
+  },
+  "Common": {
+    "see_details": "Details ansehen",
+    "based_in": "Ansässig im Wallis, Schweiz"
+  },
+  "Hero": {
+    "tagline": "Die digitale Einladung",
+    "desc_part1": "Wir verwandeln die großen Momente Ihres Lebens in",
+    "desc_highlight": "immersive Web-Erlebnisse",
+    "desc_part2": "Willkommen in der Zukunft der Einladungen.",
+    "button": "Nehmen Sie an der Golden Ticket Aktion 2026 teil"
+  },
+  "Grandeur": {
+    "title": "Größe & Feierlichkeiten",
+    "subtitle": "Wenn das Fest unvergesslich wird",
+    "mariage_title": "Hochzeit",
+    "mariage_price": "Ab 950 CHF",
+    "mariage_desc": "Das Premium-Angebot. Zeitleiste Ihrer Geschichte, Audio-Gästebuch, HD-Galerie, intelligentes RSVP.",
+    "mariage_tag1": "Bestseller",
+    "mariage_tag2": "Audio",
+    "bar_title": "Bar Mitzwa",
+    "bar_price": "Ab 950 CHF",
+    "bar_desc": "Die Verbindung von Tradition und Digitalem. Erklären Sie die Parascha, verwalten Sie internationale Gäste, veredeln Sie das Fest.",
+    "bar_tag1": "Gemeinschaft",
+    "bar_tag2": "Prestige",
+    "anniv_title": "Geburtstag & Jubiläum",
+    "anniv_price": "Ab 650 CHF",
+    "anniv_desc": "Eine interaktive Retrospektive eines Lebens voller Erinnerungen. Quiz, gemeinsame Playlist und integrierte Kasse.",
+    "anniv_tag1": "Beliebt",
+    "anniv_tag2": "Spaß",
+    "retraite_title": "Ruhestand",
+    "retraite_price": "Ab 550 CHF",
+    "retraite_desc": "Video-Gästebuch der Kollegen, Karriere-Retrospektive und Countdown in die Freiheit.",
+    "retraite_tag1": "Unternehmen"
+  },
+  "Family": {
+    "title": "Zärtlichkeit & Familie",
+    "subtitle": "Die ersten Kapitel eines Lebens",
+    "naissance_title": "Geburt",
+    "naissance_price": "Ab 450 CHF",
+    "naissance_desc": "Weit mehr als eine Einladung. Animierte Baby-Statistiken, erste Fotos, integrierte Wunschliste.",
+    "naissance_tag": "Beliebt",
+    "bapteme_title": "Taufe",
+    "bapteme_price": "Ab 450 CHF",
+    "bapteme_desc": "Laden Sie die Familie mit Eleganz ein. Zeremonie-Infos, GPS-Karte und Wunschsammlung für das Kind.",
+    "bapteme_tag": "Spirituell",
+    "communion_title": "Kommunion",
+    "communion_price": "Ab 450 CHF",
+    "communion_desc": "Eine leuchtende Seite, um diesen wichtigen Meilenstein zu markieren. Einfach, rein, effektiv.",
+    "communion_tag": "Familie"
+  },
+  "EVJF": {
+    "section_title": "DER WAHNSINN",
+    "subtitle": "Junggesellen- / Junggesellinnenabschied",
+    "desc_part1": "Das letzte große Abenteuer vor dem großen Sprung.",
+    "desc_part2": "Eine geheime Seite mit Überraschungsprogramm, interaktiven Herausforderungen, gemeinsamer Kasse und schrittweiser Enthüllung. Das perfekte Werkzeug für Trauzeugen.",
+    "button": "Angebot entdecken — Ab 450 CHF",
+    "demo": "Live-Demo ansehen"
+  },
+  "Love": {
+    "section_title": "DER FUNKE",
+    "subtitle": "Der ultimative Heiratsantrag",
+    "desc_part1": "Sie haben den Ring, wir haben das Drehbuch.",
+    "desc_part2": "Ein interaktives mobiles Erlebnis, das die Spannung bis zur alles entscheidenden Frage aufbaut. \"Wow\"-Effekt und Freudentränen garantiert.",
+    "button": "Angebot entdecken — Ab 590 CHF",
+    "demo": "Demo auf dem Handy ansehen"
+  },
+  "Corporate": {
+    "title": "Professionell & Corporate",
+    "subtitle": "Exzellenz im Dienste Ihres Images",
+    "event_title": "Corporate Event",
+    "event_price": "Ab 750 CHF",
+    "event_desc": "Konferenzen, Galas, Produkteinführungen — eine Event-Website mit Anmeldungen, interaktiver Agenda und vollständigem Branding.",
+    "event_tag1": "Business",
+    "event_tag2": "Premium",
+    "retraite_title": "Pro-Ruhestand",
+    "retraite_price": "Ab 550 CHF",
+    "retraite_desc": "Schenken Sie Ihrem Kollegen eine immersive Karriere-Retrospektive. Das Gemeinschaftsgeschenk, das Eindruck hinterlässt.",
+    "retraite_tag1": "Team",
+    "retraite_tag2": "Kasse"
+  },
+  "Memory": {
+    "label": "Gedenkraum",
+    "title": "DIE WÜRDIGUNG",
+    "desc_part1": "Weil Zeitungspapier verblasst, aber das Web bleibt.",
+    "desc_part2": "Bieten Sie Familien einen ewigen Zufluchtsort: Biografie, Fotogalerie und unsere exklusive Funktion der",
+    "highlight": "Virtuellen Kerzen",
+    "button": "Gedenk-Angebot entdecken (ab 750 CHF)",
+    "demo_card_label": "In Gedenken an",
+    "demo_link": "Vollständige Demo ansehen"
+  },
+  "Artisan": {
+    "title": "Der Handwerker hinter Ihren Erinnerungen",
+    "quote_part1": "\"Ich bin Michaël, Entwickler und Kreativer aus dem Wallis. Ich habe",
+    "quote_highlight": "NeoCard",
+    "quote_part2": "mit einer Überzeugung gegründet: Ihre großen Momente verdienen etwas Besseres als eine WhatsApp-Gruppe oder eine Einladung, die im Müll landet.\"",
+    "tech": "— Next.js Technologie, Haute-Couture Design, Schweizer Hosting."
+  },
+  "Footer": {
+    "desc": "Ihre Geschichte verdient den besten Rahmen. Lassen Sie uns treffen, um über Ihr Event zu sprechen.",
+    "btn_quote": "Angebot anfordern",
+    "btn_pricing": "Preise ansehen",
+    "legal_link": "Impressum & Datenschutz (revDSG)"
+  },
+  "Modals": {
+    "pricing_title": "Preisübersicht",
+    "legal_title": "Impressum & Datenschutz",
+    "contact_success_title": "Erfolgreich gesendet!",
+    "contact_success_desc": "Michaël hat Ihre Anfrage erhalten.",
+    "contact_title": "Ein Projekt?",
+    "contact_subtitle": "Beschreiben Sie Ihre Wünsche, ich kümmere mich um den Rest.",
+    "form_name": "Name",
+    "form_name_ph": "Ihr Name",
+    "form_email": "E-Mail",
+    "form_email_ph": "ihre@email.com",
+    "form_message": "Nachricht",
+    "form_message_ph": "Eventdetails...",
+    "form_btn": "Meine Anfrage senden",
+    "form_error": "Verbindungsfehler mit dem Server."
+  },
+  "LegalText": {
+    "section1_title": "1. Impressum",
+    "section1_desc": "Gemäß Artikel 3 des Bundesgesetzes gegen den unlauteren Wettbewerb (UWG):",
+    "editor": "Herausgeber:",
+    "commercial_name": "Handelsname:",
+    "address": "Adresse:",
+    "contact": "Kontakt:",
+    "section2_title": "2. Hosting",
+    "section2_desc": "Das Hosting dieser Website und der Daten erfolgt über die sicheren Infrastrukturen von Vercel Inc., was die Einhaltung moderner Sicherheitsstandards garantiert.",
+    "section3_title": "3. Datenschutzrichtlinie (revDSG 2023)",
+    "section3_desc": "Gemäß dem neuen Datenschutzgesetz (revDSG):",
+    "collect": "Erhebung:",
+    "collect_desc": "Es werden nur Daten erhoben, die freiwillig über unsere Formulare übermittelt werden.",
+    "purpose": "Zweck:",
+    "purpose_desc": "Bearbeitung Ihrer Angebote, Erstellung Ihrer digitalen Projekte und Kommunikation im Zusammenhang mit unseren Sonderaktionen.",
+    "confidentiality": "Vertraulichkeit:",
+    "confidentiality_desc": "Ihre Daten werden niemals verkauft. Sie werden über unsere internen Tools vertraulich behandelt.",
+    "rights": "Rechte:",
+    "rights_desc": "Sie können den Zugriff, die Änderung oder Löschung Ihrer Daten beantragen, indem Sie uns kontaktieren unter",
+    "section4_title": "4. Geistiges Eigentum",
+    "section4_desc": "Die Designs, Codes, Fotografien und Texte auf neocard.ch sind Eigentum von Michaël Kaeser. Jede unbefugte Vervielfältigung ist untersagt."
+  }
+}
