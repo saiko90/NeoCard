@@ -1,11 +1,30 @@
 {
-    "SEO": {
+  "SEO": {
     "title": "NeoCard - Premium Digital Invitations & Web Experiences",
     "description": "Discover the future of invitations. Immersive web experiences and haute couture designs for weddings, births, and corporate events."
   },
   "Common": {
     "see_details": "View details",
-    "based_in": "Based in Valais, Switzerland"
+    "based_in": "Based in Valais, Switzerland",
+    "ourFormulas": "Our Packages",
+    "liveDemo": "Live Demo",
+    "viewLiveResult": "View live result",
+    "customQuote": "Need a custom quote? Contact us.",
+    "humanSupport": "A delicate moment deserves human support. Contact us.",
+    "recommended": "Recommended",
+    "popular": "Popular",
+    "bestSeller": "Best Seller",
+    "mostChosen": "Most Chosen",
+    "wowEffect": "Wow Effect",
+    "funGuaranteed": "Fun Guaranteed",
+    "onQuote": "On Quote",
+    "features": {
+      "mobile": "100% Mobile Friendly",
+      "noApp": "No app required",
+      "secure": "Data secured in Switzerland",
+      "multilingual": "Multilingual integrated",
+      "password": "Password protected"
+    }
   },
   "Hero": {
     "tagline": "The digital invitation",
@@ -120,28 +139,149 @@
     "form_message": "Message",
     "form_message_ph": "Event details...",
     "form_btn": "Send my request",
-    "form_error": "Connection error with the server."
+    "form_error": "Connection error with the server.",
+    "bapteme": {
+      "title": "Baptism",
+      "subtitle": "Grace & Light",
+      "description": "A moment of grace deserves an invitation to match. Invite family and loved ones with elegance: ceremony program, GPS map of the church, and a collection of wishes for the child to read later.",
+      "plan1": "Blessing",
+      "plan1_features": ["Luminous Digital Announcement", "Ceremony Program", "Church GPS Map", "Simple RSVP Form", "1-Year Hosting"],
+      "plan2": "Sacrament",
+      "plan2_features": ["All Blessing features", "Wish Collection for the Child", "Photo Gallery", "Family Guestbook", "Background Music"],
+      "plan3": "Celestial",
+      "plan3_features": ["100% Custom Design", "Integrated Multilingualism", "Custom Domain Name", "Animated Intro Video"]
+    },
+    "mariage": {
+      "title": "Wedding",
+      "subtitle": "Sacred Union",
+      "description": "Forget paper invitations that end up in the bin. Give your guests an immersive experience worthy of your union. Schedule, smart RSVP, live gallery, and audio guestbook.",
+      "plan1": "Essential",
+      "plan1_features": ["Designer Invitation Website", "GPS Program & Itinerary", "Simple RSVP Form", "Animated Countdown", "1-Year Hosting"],
+      "plan2": "Prestige",
+      "plan2_features": ["All Essential features", "Live Photo & Video Gallery", "Audio Guestbook (Voicemails)", "Advanced RSVP Form", "Guest Excel Management"],
+      "plan3": "Excellence",
+      "plan3_features": ["100% Custom Design", "Multilingual (EN/FR/DE)", "Custom Domain Name", "Dedicated Couple Assistance", "Specific 3D Animations"]
+    },
+    "naissance": {
+      "title": "Birth",
+      "subtitle": "First Breath",
+      "description": "More than just an announcement. Share your little miracle with an immersive page: animated name reveal, baby stats, first photos, and integrated baby registry.",
+      "plan1": "Little Heart",
+      "plan1_features": ["Animated Digital Announcement", "Animated Baby Stats (Weight, Size)", "Photo Gallery", "1-Year Hosting"],
+      "plan2": "Star",
+      "plan2_features": ["All Little Heart features", "Integrated Baby Registry", "Welcome Guestbook", "Visitor Counter", "Background Music"],
+      "plan3": "Miracle",
+      "plan3_features": ["100% Custom Design", "Cinematic Intro Video", "Custom Domain Name", "Blog for the First Months", "QR Code for Frame Printing"]
+    },
+    "bar": {
+      "title": "Bar Mitzvah",
+      "subtitle": "Sacred Alliance",
+      "description": "Celebrate this passage to maturity with a digital invitation worthy of the event. Explain the Parasha, manage international guests, and elevate every moment of the celebration.",
+      "plan1": "Essential",
+      "plan1_features": ["Elegant Invitation Website", "Ceremony Program", "Simple RSVP Form", "Animated Countdown", "1-Year Hosting"],
+      "plan2": "Prestige",
+      "plan2_features": ["All Essential features", "Interactive Parasha Explanation", "Audio Guestbook", "Multilingual RSVP", "Guest Excel Management"],
+      "plan3": "Excellence",
+      "plan3_features": ["100% Custom Design", "Custom Hebrew Animations", "Dedicated Family Assistance", "Cinematic Intro Video"]
+    },
+    "anniv": {
+      "title": "Birthday & Jubilee",
+      "subtitle": "Celebration Reinvented",
+      "description": "18, 30, 50, or 100 years old — every decade deserves its digital case. An interactive retrospective, a memory counter, and an invitation that sets the tone for the party.",
+      "plan1": "Festive",
+      "plan1_features": ["Thematic Invitation Website", "Animated Countdown", "Simple RSVP Form", "GPS Map", "1-Year Hosting"],
+      "plan2": "Memorable",
+      "plan2_features": ["All Festive features", "Interactive Photo Retrospective", "Digital Guestbook (Text/Voice)", "Collaborative Spotify Playlist", "Interactive Guest Quiz"],
+      "plan3": "Legendary",
+      "plan3_features": ["100% Custom Design", "Animated Retrospective Video", "Custom Domain Name", "Integrated Online Fund", "Custom Animations"]
+    },
+    "communion": {
+      "title": "Communion",
+      "subtitle": "Inner Light",
+      "description": "An important spiritual step deserves to be shared with grace. A luminous and refined page to invite your loved ones and collect messages of encouragement.",
+      "plan1": "Purity",
+      "plan1_features": ["Elegant Digital Announcement", "Ceremony Program", "GPS Map (Church & Venue)", "Simple RSVP Form", "1-Year Hosting"],
+      "plan2": "Harmony",
+      "plan2_features": ["All Purity features", "Message Wall for the Child", "D-Day Photo Gallery", "Animated Countdown", "Custom Background Music"],
+      "plan3": "Eternity",
+      "plan3_features": ["100% Custom Design", "Animated Intro Video", "Custom Domain Name", "Multilingual Support", "QR Code Souvenir Printing"]
+    },
+    "corporate": {
+      "title": "Corporate Event",
+      "subtitle": "Professional Excellence",
+      "description": "Conferences, product launches, company galas — your brand deserves an invitation that matches its image. A custom event site with registration management.",
+      "plan1": "Starter",
+      "plan1_features": ["Professional Event Page", "Interactive Program & Agenda", "Registration / RSVP Form", "Full Color & Logo Branding", "1-Year Hosting"],
+      "plan2": "Business",
+      "plan2_features": ["All Starter features", "Multi-Session / Workshop Management", "Speaker Profiles", "Excel Data Export", "Visit Analytics & Statistics"],
+      "plan3": "Enterprise",
+      "plan3_features": ["100% Custom Design", "CRM / Mailchimp Integration", "Online Ticketing / Payment", "Multilingual (EN/FR/DE/IT)", "Custom Domain Name"]
+    },
+    "evjf": {
+      "title": "Bachelor / Bachelorette",
+      "subtitle": "The Party Before the Party",
+      "description": "Surprise the bride or groom to be with a secret page that reveals the program step-by-step. Challenges, countdown, and coordinates — secrecy guaranteed.",
+      "plan1": "Accomplice",
+      "plan1_features": ["Password Protected Secret Page", "Weekend / Evening Program", "Venue GPS Maps", "Mystery Countdown", "3-Month Hosting"],
+      "plan2": "Folly",
+      "plan2_features": ["All Accomplice features", "Interactive Challenge List", "Integrated Common Fund", "Collaborative Photo Gallery", "Collaborative Spotify Playlist"],
+      "plan3": "Epic",
+      "plan3_features": ["100% Custom Design", "Custom Interactive Mini-Game", "Integrated Surprise Video", "Custom Domain Name", "Multi-Organizer Coordination"]
+    },
+    "proposal": {
+      "title": "Marriage Proposal",
+      "subtitle": "The Spark — The Ultimate Moment",
+      "description": "You have the ring. We have the scenario. An interactive mobile experience that builds suspense until the fateful question. Tears of joy guaranteed.",
+      "plan1": "Sparkle",
+      "plan1_features": ["Immersive Mobile Experience", "Love Story Timeline", "Couple Photo Gallery", "Animated Question Reveal", "Custom Music", "6-Month Hosting"],
+      "plan2": "Coup de Foudre",
+      "plan2_features": ["All Sparkle features", "Personalized Narrative Script", "Cinematic Animations", "Mystery Countdown", "Secret Protected Link"],
+      "plan3": "Eternal",
+      "plan3_features": ["100% Custom Design", "Animated Couple Mini-Film", "3D & Particle Effects", "Photographer Coordination", "Custom Domain Name"]
+    },
+    "retraite": {
+      "title": "Retirement",
+      "subtitle": "The Hour of Glory",
+      "description": "30 years of career cannot be summed up in a simple drink. Offer an immersive page with testimonials from the entire team and a career retrospective.",
+      "plan1": "Friendly",
+      "plan1_features": ["Design Invitation Website", "Animated Countdown", "Simple RSVP Form", "Practical Info & Maps", "1-Year Hosting"],
+      "plan2": "Tribute",
+      "plan2_features": ["All Friendly features", "Video Guestbook from Colleagues", "Animated Career Retrospective", "Key Moments Photo Gallery", "Integrated Common Fund"],
+      "plan3": "Prestige",
+      "plan3_features": ["100% Custom Design", "Recap Video Editing", "Integrated Company Branding", "Custom Domain Name", "Dedicated Assistance"]
+    },
+    "memorial": {
+      "title": "Memorial & Tribute",
+      "subtitle": "Digital Eternity",
+      "description": "Because newspapers fade, but the web remains. Offer families a perpetual sanctuary: biography, photo gallery, and our exclusive virtual candles.",
+      "plan1": "Remembrance",
+      "plan1_features": ["Sober & Elegant Memorial Page", "Biography & Key Dates", "Souvenir Photo Gallery", "Digital Condolence Book", "2-Year Hosting"],
+      "plan2": "Heritage",
+      "plan2_features": ["All Remembrance features", "Interactive Virtual Candles", "Animated Souvenir Video", "Interactive Life Timeline", "5-Year Perpetual Hosting"],
+      "plan3": "Eternity",
+      "plan3_features": ["100% Custom Design", "Custom Domain Name", "Perpetual Hosting (10+ Years)", "QR Code for Grave / Urn", "Multilingual Support"]
+    }
   },
   "LegalText": {
     "section1_title": "1. Impressum",
     "section1_desc": "In accordance with Article 3 of the Swiss Federal Act against Unfair Competition (UCA):",
     "editor": "Publisher:",
-    "commercial_name": "Trade name:",
+    "commercial_name": "Commercial Name:",
     "address": "Address:",
     "contact": "Contact:",
     "section2_title": "2. Hosting",
     "section2_desc": "The hosting of this site and data is provided via the secure infrastructure of Vercel Inc., guaranteeing compliance with modern security standards.",
     "section3_title": "3. Privacy Policy (nFADP 2023)",
-    "section3_desc": "Under the new Federal Act on Data Protection (nFADP):",
+    "section3_desc": "Under the Federal Act on Data Protection (nLPD):",
     "collect": "Collection:",
     "collect_desc": "Only data voluntarily transmitted via our forms is collected.",
     "purpose": "Purpose:",
-    "purpose_desc": "Processing your quotes, creating your digital projects, and communication related to our exceptional operations.",
+    "purpose_desc": "The processing of your quotes, the creation of your digital projects, and communication related to our exceptional operations.",
     "confidentiality": "Confidentiality:",
-    "confidentiality_desc": "Your data will never be sold. It is treated confidentially via our internal tools.",
+    "confidentiality_desc": "Your data will never be sold. They are treated confidentially via our internal tools.",
     "rights": "Rights:",
     "rights_desc": "You can request access, modification, or deletion of your data by contacting us at",
     "section4_title": "4. Intellectual Property",
-    "section4_desc": "The designs, codes, photographs, and texts on neocard.ch are the property of Michaël Kaeser. Any unauthorized reproduction is prohibited."
+    "section4_desc": "The designs, codes, photographs, and texts present on neocard.ch are the property of Michaël Kaeser. Any unauthorized reproduction is prohibited."
   }
 }

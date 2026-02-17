@@ -1,10 +1,30 @@
-{"SEO": {
+{
+  "SEO": {
     "title": "NeoCard - L'artigiano delle partecipazioni digitali in Svizzera",
     "description": "Scopri il futuro delle partecipazioni. Esperienze web immersive e design haute couture per matrimoni, nascite ed eventi corporate."
   },
   "Common": {
     "see_details": "Vedi dettagli",
-    "based_in": "Con sede nel Canton Vallese, Svizzera"
+    "based_in": "Con sede nel Canton Vallese, Svizzera",
+    "ourFormulas": "Le nostre formule",
+    "liveDemo": "Vedi la Demo Live",
+    "viewLiveResult": "Vedi il risultato in diretta",
+    "customQuote": "Serve un preventivo personalizzato? Contattaci.",
+    "humanSupport": "Un momento delicato merita un supporto umano. Contattaci.",
+    "recommended": "Consigliato",
+    "popular": "Popolare",
+    "bestSeller": "I più venduti",
+    "mostChosen": "Il Più Scelto",
+    "wowEffect": "Effetto Wow",
+    "funGuaranteed": "Divertimento Garantito",
+    "onQuote": "Su preventivo",
+    "features": {
+      "mobile": "100% Mobile Friendly",
+      "noApp": "Accessibile senza applicazione",
+      "secure": "Dati protetti in Svizzera",
+      "multilingual": "Multilingue integrato",
+      "password": "Protetto da password"
+    }
   },
   "Hero": {
     "tagline": "La partecipazione digitale",
@@ -18,14 +38,14 @@
     "subtitle": "Quando la festa diventa indimenticabile",
     "mariage_title": "Matrimonio",
     "mariage_price": "Da 950 CHF",
-    "mariage_desc": "L'offerta esclusiva. Timeline della tua storia, Guestbook Audio, Galleria HD, RSVP intelligente.",
+    "mariage_desc": "L'offerta esclusiva. Timeline della tua story, Guestbook Audio, Galleria HD, RSVP intelligente.",
     "mariage_tag1": "I più venduti",
     "mariage_tag2": "Audio",
     "bar_title": "Bar Mitzvah",
     "bar_price": "Da 950 CHF",
     "bar_desc": "L'unione tra tradizione e digitale. Spiega la Parashah, gestisci ospiti internazionali, esalta la festa.",
     "bar_tag1": "Comunità",
-    "bar_tag2": "Prestigio",
+    "bar_tag2": "Prestige",
     "anniv_title": "Compleanno & Giubileo",
     "anniv_price": "Da 650 CHF",
     "anniv_desc": "Una retrospettiva interattiva di una vita di ricordi. Quiz, playlist collaborativa e cassa integrata.",
@@ -119,11 +139,132 @@
     "form_message": "Messaggio",
     "form_message_ph": "Dettagli dell'evento...",
     "form_btn": "Invia la mia richiesta",
-    "form_error": "Errore di connessione al server."
+    "form_error": "Errore di connessione al server.",
+    "bapteme": {
+      "title": "Battesimo",
+      "subtitle": "Grazia & Luce",
+      "description": "Un momento di grazia merita un invito alla sua altezza. Invita i tuoi cari con eleganza: programma della cerimonia, mappa GPS della chiesa e una raccolta di auguri che il bambino potrà rileggere in futuro.",
+      "plan1": "Benedizione",
+      "plan1_features": ["Annuncio digitale luminoso", "Programma della cerimonia", "Mappa GPS della chiesa", "Modulo RSVP semplice", "Hosting per 1 anno"],
+      "plan2": "Sacramento",
+      "plan2_features": ["Tutte le funzioni Benedizione", "Raccolta auguri per il bambino", "Galleria fotografica", "Guestbook di famiglia", "Musica d'atmosfera"],
+      "plan3": "Celeste",
+      "plan3_features": ["Design 100% su misura", "Multilingua integrato", "Nome di dominio personalizzato", "Video d'introduzione animato"]
+    },
+    "mariage": {
+      "title": "Matrimonio",
+      "subtitle": "Sacra Unione",
+      "description": "Dimentica le partecipazioni cartacee. Offri ai tuoi ospiti un'esperienza immersiva degna della tua unione. Programma, RSVP intelligente, galleria live e guestbook audio.",
+      "plan1": "Essenziale",
+      "plan1_features": ["Sito partecipazione di design", "Programma e itinerario GPS", "Modulo RSVP semplice", "Conto alla rovescia animato", "Hosting per 1 anno"],
+      "plan2": "Prestige",
+      "plan2_features": ["Tutte le funzioni Essenziale", "Galleria foto e video live", "Guestbook audio (messaggi vocali)", "Modulo RSVP avanzato", "Gestione ospiti in Excel"],
+      "plan3": "Eccellenza",
+      "plan3_features": ["Design 100% su misura", "Multilingua (IT/FR/EN/DE)", "Nome di dominio personalizzato", "Assistenza dedicata agli sposi", "Animazioni 3D specifiche"]
+    },
+    "naissance": {
+      "title": "Nascita",
+      "subtitle": "Primo Respiro",
+      "description": "Molto più di un semplice annuncio. Condividi il tuo piccolo miracolo con una pagina immersiva: rivelazione del nome animata, statistiche del bebè, prime foto e lista nascita integrata.",
+      "plan1": "Piccolo Cuore",
+      "plan1_features": ["Annuncio digitale animato", "Statistiche bebè animate (peso, altezza)", "Galleria fotografica", "Hosting per 1 anno"],
+      "plan2": "Stella",
+      "plan2_features": ["Tutte le funzioni Piccolo Cuore", "Lista nascita integrata", "Guestbook di benvenuto", "Contatore visite", "Musica di sottofondo"],
+      "plan3": "Miracolo",
+      "plan3_features": ["Design 100% su misura", "Video d'introduzione cinematografico", "Nome di dominio personalizzato", "Blog dei primi mesi", "QR Code per stampa cornice"]
+    },
+    "bar": {
+      "title": "Bar Mitzvah",
+      "subtitle": "Sacra Alleanza",
+      "description": "Celebra questo passaggio alla maturità con un invito digitale degno dell'evento. Spiega la Parashah, gestisci gli ospiti internazionali e valorizza ogni momento della festa.",
+      "plan1": "Essenziale",
+      "plan1_features": ["Sito invito elegante", "Programma della cerimonia", "Modulo RSVP semplice", "Conto alla rovescia animato", "Hosting per 1 anno"],
+      "plan2": "Prestige",
+      "plan2_features": ["Tutte le funzioni Essenziale", "Spiegazione interattiva Parashah", "Guestbook audio", "RSVP multilingua", "Gestione ospiti Excel"],
+      "plan3": "Eccellenza",
+      "plan3_features": ["Design 100% su misura", "Animazioni ebraiche personalizzate", "Assistenza dedicata alla famiglia", "Video d'introduzione cinematografico"]
+    },
+    "anniv": {
+      "title": "Compleanno & Giubileo",
+      "subtitle": "La Festa Reinventata",
+      "description": "18, 30, 50 o 100 anni — ogni decennio merita il suo scrigno digitale. Una retrospettiva interattiva, un contatore di ricordi e un invito che dà il tono alla festa.",
+      "plan1": "Festoso",
+      "plan1_features": ["Sito partecipazione a tema", "Conto alla rovescia animato", "Modulo RSVP semplice", "Mappa GPS", "Hosting per 1 anno"],
+      "plan2": "Memorabile",
+      "plan2_features": ["Tutte le funzioni Festoso", "Retrospettiva foto interattiva", "Guestbook digitale (testo/voce)", "Playlist Spotify collaborativa", "Quiz interattivo per gli ospiti"],
+      "plan3": "Leggendario",
+      "plan3_features": ["Design 100% su misura", "Video retrospettiva animato", "Nome di dominio personalizzato", "Cassa online integrata", "Animazioni personalizzate"]
+    },
+    "communion": {
+      "title": "Comunione",
+      "subtitle": "Luce Interiore",
+      "description": "Un passo spirituale importante merita di essere condiviso con grazia. Una pagina luminosa ed essenziale per invitare i tuoi cari e raccogliere messaggi di incoraggiamento.",
+      "plan1": "Purezza",
+      "plan1_features": ["Annuncio digitale elegante", "Programma della cerimonia", "Mappa GPS (chiesa e location)", "Modulo RSVP semplice", "Hosting per 1 anno"],
+      "plan2": "Armonia",
+      "plan2_features": ["Tutte le funzioni Purezza", "Muro dei messaggi per il bambino", "Galleria foto del giorno", "Conto alla rovescia animato", "Musica di sottofondo personalizzata"],
+      "plan3": "Eternità",
+      "plan3_features": ["Design 100% su misura", "Video d'introduzione animato", "Nome di dominio personalizzato", "Supporto multilingua", "QR Code stampa ricordo"]
+    },
+    "corporate": {
+      "title": "Evento Corporate",
+      "subtitle": "Eccellenza Professionale",
+      "description": "Conferenze, lanci di prodotto, gala aziendali — il tuo marchio merita un invito all'altezza della sua immagine. Sito su misura con gestione iscrizioni.",
+      "plan1": "Starter",
+      "plan1_features": ["Pagina evento professionale", "Programma e agenda interattiva", "Modulo iscrizione / RSVP", "Branding colori e logo", "Hosting per 1 anno"],
+      "plan2": "Business",
+      "plan2_features": ["Tutte le funzioni Starter", "Gestione multi-sessione / workshop", "Profili relatori", "Esportazione dati Excel", "Analytics e statistiche visite"],
+      "plan3": "Enterprise",
+      "plan3_features": ["Design 100% su misura", "Integrazione CRM / Mailchimp", "Biglietteria / Pagamento online", "Multilingua (IT/FR/EN/DE)", "Nome di dominio personalizzato"]
+    },
+    "evjf": {
+      "title": "Addio al Celibato/Nubilato",
+      "subtitle": "La Festa prima della Festa",
+      "description": "Sorprendi i futuri sposi con una pagina segreta che rivela il programma passo dopo passo. Sfide, countdown e coordinate — segreto garantito.",
+      "plan1": "Complice",
+      "plan1_features": ["Pagina segreta protetta da codice", "Programma weekend / serata", "Mappe GPS dei luoghi", "Conto alla rovescia misterioso", "Hosting per 3 mesi"],
+      "plan2": "Follia",
+      "plan2_features": ["Tutte le funzioni Complice", "Lista di sfide interattive", "Cassa comune integrata", "Galleria foto collaborativa", "Playlist Spotify collaborativa"],
+      "plan3": "Epico",
+      "plan3_features": ["Design 100% su misura", "Mini-gioco interattivo personalizzato", "Video sorpresa integrato", "Nome di dominio personalizzato", "Coordinamento multi-organizzatore"]
+    },
+    "proposal": {
+      "title": "Proposta di Matrimonio",
+      "subtitle": "La Scintilla — Il Momento Supremo",
+      "description": "Hai l'anello. Noi abbiamo lo scenario. Un'esperienza mobile interattiva che crea suspense fino alla fatidica domanda. Lacrime di gioia garantite.",
+      "plan1": "Scintilla",
+      "plan1_features": ["Esperienza mobile immersiva", "Timeline della storia d'amore", "Galleria foto di coppia", "Rivelazione domanda animata", "Musica personalizzata", "Hosting per 6 mesi"],
+      "plan2": "Colpo di Fulmine",
+      "plan2_features": ["Tutte le funzioni Scintilla", "Script narrativo personalizzato", "Animazioni cinematografiche", "Conto alla rovescia misterioso", "Link segreto protetto"],
+      "plan3": "Eterno",
+      "plan3_features": ["Design 100% su misura", "Mini-film d'animazione di coppia", "Effetti 3D e particelle", "Coordinamento con fotografo", "Nome di dominio personalizzato"]
+    },
+    "retraite": {
+      "title": "Pensionamento",
+      "subtitle": "L'Ora di Gloria",
+      "description": "30 anni di carriera non si riassumono in un semplice brindisi. Offri una pagina immersiva con le testimonianze del team e una retrospettiva di carriera.",
+      "plan1": "Conviviale",
+      "plan1_features": ["Sito invito di design", "Conto alla rovescia animato", "Modulo RSVP semplice", "Info pratiche e mappe", "Hosting per 1 anno"],
+      "plan2": "Omaggio",
+      "plan2_features": ["Tutte le funzioni Conviviale", "Guestbook video dei colleghi", "Retrospettiva carriera animata", "Galleria foto momenti chiave", "Cassa comune integrata"],
+      "plan3": "Prestige",
+      "plan3_features": ["Design 100% su misura", "Montaggio video riassuntivo", "Branding aziendale integrato", "Nome di dominio personalizzato", "Assistenza dedicata"]
+    },
+    "memorial": {
+      "title": "Memoriale & Omaggio",
+      "subtitle": "Eternità Digitale",
+      "description": "Perché i giornali sbiadiscono, ma il web resta. Offri alle famiglie un santuario perpetuo: biografia, galleria foto e le nostre esclusive candele virtuali.",
+      "plan1": "Raccoglimento",
+      "plan1_features": ["Pagina memoriale sobria ed elegante", "Biografia e date chiave", "Galleria foto ricordo", "Libro di condoglianze digitale", "Hosting per 2 anni"],
+      "plan2": "Eredità",
+      "plan2_features": ["Tutte le funzioni Raccoglimento", "Candele virtuali interattive", "Video ricordo animato", "Timeline della vita interattiva", "Hosting perpetuo per 5 anni"],
+      "plan3": "Eternità",
+      "plan3_features": ["Design 100% su misura", "Nome di dominio personalizzato", "Hosting perpetuo (10+ anni)", "QR Code per tomba/urna", "Supporto multilingua"]
+    }
   },
   "LegalText": {
     "section1_title": "1. Impressum",
-    "section1_desc": "Ai sensi dell'articolo 3 della Legge federale contro la concorrenza sleale (LCSl):",
+    "section1_desc": "In conformità con l'articolo 3 della Legge federale contro la concorrenza sleale (LCSl):",
     "editor": "Editore:",
     "commercial_name": "Nome commerciale:",
     "address": "Indirizzo:",

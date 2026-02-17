@@ -1,11 +1,30 @@
 {
-    "SEO": {
+  "SEO": {
     "title": "NeoCard - L'artisan du faire-part digital en Suisse",
     "description": "Découvrez le futur du faire-part. Expériences web immersives et designs haute couture pour mariages, naissances et événements corporate."
   },
   "Common": {
     "see_details": "Voir détails",
-    "based_in": "Basé en Valais, Suisse"
+    "based_in": "Basé en Valais, Suisse",
+    "ourFormulas": "Nos Formules",
+    "liveDemo": "Voir la Démo Live",
+    "viewLiveResult": "Voir le résultat en direct",
+    "customQuote": "Besoin d'un devis personnalisé ? Contactez-nous.",
+    "humanSupport": "Un moment délicat mérite un accompagnement humain. Contactez-nous.",
+    "recommended": "Recommandé",
+    "popular": "Populaire",
+    "bestSeller": "Best-Seller",
+    "mostChosen": "Le Plus Choisi",
+    "wowEffect": "Effet Waouh",
+    "funGuaranteed": "Fun Garanti",
+    "onQuote": "Sur Devis",
+    "features": {
+      "mobile": "100% Mobile Friendly",
+      "noApp": "Accessible sans application",
+      "secure": "Données sécurisées en Suisse",
+      "multilingual": "Multi-langues intégré",
+      "password": "Protégé par Mot de Passe"
+    }
   },
   "Hero": {
     "tagline": "Le faire-part digital numérique",
@@ -120,7 +139,128 @@
     "form_message": "Message",
     "form_message_ph": "Détails de l'événement...",
     "form_btn": "Envoyer ma demande",
-    "form_error": "Erreur de connexion avec le serveur."
+    "form_error": "Erreur de connexion avec le serveur.",
+    "bapteme": {
+      "title": "Baptême",
+      "subtitle": "Grâce & Lumière",
+      "description": "Un moment de grâce mérite une invitation à sa hauteur. Invitez la famille et les proches avec élégance : programme de la cérémonie, carte GPS de l'église, et un recueil de vœux pour l'enfant qu'il pourra relire plus tard.",
+      "plan1": "Bénédiction",
+      "plan1_features": ["Faire-Part Digital Lumineux", "Programme de la Cérémonie", "Carte GPS Église", "RSVP Simple", "Hébergement 1 an"],
+      "plan2": "Sacrement",
+      "plan2_features": ["Tout l'offre Bénédiction", "Recueil de Vœux", "Galerie Photo", "Livre d'Or Familial", "Musique d'Ambiance"],
+      "plan3": "Céleste",
+      "plan3_features": ["Design 100% Sur Mesure", "Multi-langues intégré", "Nom de domaine personnalisé", "Vidéo d'Introduction"]
+    },
+    "mariage": {
+      "title": "Mariage",
+      "subtitle": "L'Union Sacrée",
+      "description": "Fini les faire-part papier qui finissent à la poubelle. Offrez à vos invités une expérience immersive digne de votre union. Programme, RSVP intelligent, Galerie live et Livre d'or audio.",
+      "plan1": "Essentiel",
+      "plan1_features": ["Site Web Invitation Design", "Programme & Itinéraire GPS", "RSVP Simple", "Compte à rebours", "Hébergement 1 an"],
+      "plan2": "Prestige",
+      "plan2_features": ["Tout l'offre Essentiel", "Galerie Photo & Vidéo Live", "Livre d'Or Audio (Vocaux)", "RSVP Complexe", "Gestion Excel des invités"],
+      "plan3": "Excellence",
+      "plan3_features": ["Design 100% Sur Mesure", "Multi-langues (FR/EN/DE)", "Domaine personnalisé", "Animations 3D spécifiques"]
+    },
+    "naissance": {
+      "title": "Naissance",
+      "subtitle": "Premier Souffle",
+      "description": "Bien plus qu'un faire-part. Annoncez l'arrivée de votre petit miracle avec une page immersive : prénom révélé en animation, stats animées de bébé, premières photos et liste de naissance intégrée.",
+      "plan1": "Petit Cœur",
+      "plan1_features": ["Faire-Part Digital Animé", "Stats Bébé (Poids, Taille) Animées", "Galerie Photos", "Hébergement 1 an"],
+      "plan2": "Étoile",
+      "plan2_features": ["Tout l'offre Petit Cœur", "Liste de Naissance Intégrée", "Livre d'Or de Bienvenue", "Musique d'Ambiance"],
+      "plan3": "Miracle",
+      "plan3_features": ["Design 100% Sur Mesure", "Vidéo Cinématique", "Domaine personnalisé", "QR Code pour Cadre"]
+    },
+    "bar": {
+      "title": "Bar Mitzvah",
+      "subtitle": "L'Alliance Sacrée",
+      "description": "Célébrez ce passage vers la maturité avec une invitation digitale à la hauteur de l'événement. Expliquez la Parasha, gérez les invités internationaux, et sublimez chaque instant de la fête.",
+      "plan1": "Essentiel",
+      "plan1_features": ["Site Invitation Élégant", "Programme Cérémonie", "RSVP Simple", "Hébergement 1 an"],
+      "plan2": "Prestige",
+      "plan2_features": ["Offre Essentiel", "Explication Parasha", "Livre d'Or Audio", "RSVP Multi-langues", "Gestion Excel"],
+      "plan3": "Excellence",
+      "plan3_features": ["Design Sur Mesure", "Animations Hébraïques", "Assistance dédiée", "Vidéo Cinématique"]
+    },
+    "anniv": {
+      "title": "Anniversaire & Jubilé",
+      "subtitle": "La Fête Réinventée",
+      "description": "18 ans, 30 ans, 50 ans ou 100 ans — chaque décennie mérite son écrin digital. Une rétrospective interactive, un compteur de souvenirs et une invitation qui donne le ton de la fête.",
+      "plan1": "Festif",
+      "plan1_features": ["Site Web Thématique", "Compte à Rebours", "RSVP Simple", "Carte GPS", "Hébergement 1 an"],
+      "plan2": "Mémorable",
+      "plan2_features": ["Tout l'offre Festif", "Rétrospective Interactive", "Livre d'Or (Texte/Vocaux)", "Playlist Spotify", "Quiz"],
+      "plan3": "Légendaire",
+      "plan3_features": ["Design 100% Sur Mesure", "Vidéo Rétrospective", "Domaine personnalisé", "Cagnotte intégrée"]
+    },
+    "communion": {
+      "title": "Communion",
+      "subtitle": "La Lumière Intérieure",
+      "description": "Une étape spirituelle importante mérite d'être partagée avec grâce. Une page lumineuse et épurée pour inviter vos proches, partager le programme de la cérémonie et recueillir les messages d'encouragement.",
+      "plan1": "Pureté",
+      "plan1_features": ["Faire-Part Digital Élégant", "Programme Cérémonie", "RSVP Simple", "Hébergement 1 an"],
+      "plan2": "Harmonie",
+      "plan2_features": ["Tout l'offre Pureté", "Mur de Messages pour l'Enfant", "Galerie Photo J-J", "Compte à Rebours Animé"],
+      "plan3": "Éternité",
+      "plan3_features": ["Design Sur Mesure", "Vidéo d'Introduction", "Domaine personnalisé", "QR Code Souvenir"]
+    },
+    "corporate": {
+      "title": "Événement Corporate",
+      "subtitle": "L'Excellence Professionnelle",
+      "description": "Conférences, lancements de produit, galas d'entreprise — votre marque mérite une invitation à la hauteur de son image. Site sur-mesure avec gestion des inscriptions.",
+      "plan1": "Starter",
+      "plan1_features": ["Page Événement Pro", "Programme Interactif", "Formulaire Inscription", "Branding Couleurs", "Hébergement 1 an"],
+      "plan2": "Business",
+      "plan2_features": ["Tout l'offre Starter", "Multi-Sessions/Ateliers", "Profils Intervenants", "Export Excel", "Analytics"],
+      "plan3": "Enterprise",
+      "plan3_features": ["Design 100% Sur Mesure", "CRM / Mailchimp", "Billetterie en ligne", "Multi-langues"]
+    },
+    "evjf": {
+      "title": "EVG / EVJF",
+      "subtitle": "La Fête Avant la Fête",
+      "description": "Surprenez le/la futur(e) marié(e) avec une page secrète qui dévoile le programme étape par étape. Défis, countdown, et coordonnées — secret garanti.",
+      "plan1": "Complice",
+      "plan1_features": ["Page Secrète par Code", "Programme Weekend", "Carte GPS Lieux", "Hébergement 3 mois"],
+      "plan2": "Folie",
+      "plan2_features": ["Tout l'offre Complice", "Défis Interactifs", "Cagnotte Commune", "Playlist Spotify"],
+      "plan3": "Épique",
+      "plan3_features": ["Design 100% Sur Mesure", "Mini-Jeu Personnalisé", "Vidéo Surprise", "Coordination"]
+    },
+    "proposal": {
+      "title": "Demande en Mariage",
+      "subtitle": "L'Éclat — Le Moment Ultime",
+      "description": "Vous avez la bague. Nous avons le scénario. Une expérience mobile interactive qui fait monter le suspense jusqu'à la question fatidique. Larmes de joie garanties.",
+      "plan1": "Étincelle",
+      "plan1_features": ["Expérience Immersive", "Timeline Amoureuse", "Galerie Photos", "Hébergement 6 mois"],
+      "plan2": "Coup de Foudre",
+      "plan2_features": ["Tout l'offre Étincelle", "Scénario Narratif", "Animations Cinématiques", "Lien Secret"],
+      "plan3": "Éternel",
+      "plan3_features": ["Design 100% Sur Mesure", "Mini-Film Animation", "Effets 3D", "Domaine personnalisé"]
+    },
+    "retraite": {
+      "title": "Départ à la Retraite",
+      "subtitle": "L'Heure de Gloire",
+      "description": "30 ans de carrière ne se résument pas en un pot de départ. Offrez une page immersive avec les témoignages de toute l'équipe et une rétrospective de carrière.",
+      "plan1": "Convivial",
+      "plan1_features": ["Site Web Design", "Compte à Rebours", "RSVP Simple", "Hébergement 1 an"],
+      "plan2": "Hommage",
+      "plan2_features": ["Tout l'offre Convivial", "Livre d'Or Vidéo", "Rétrospective Animée", "Cagnotte Commune"],
+      "plan3": "Prestige",
+      "plan3_features": ["Design 100% Sur Mesure", "Montage Vidéo Récap", "Branding Entreprise", "Assistance Dédiée"]
+    },
+    "memorial": {
+      "title": "Mémorial & Hommage",
+      "subtitle": "L'Éternité Digitale",
+      "description": "Parce que le papier journal s'efface, mais le web reste. Offrez aux familles un sanctuaire perpétuel : biographie, galerie photo, et bougies virtuelles.",
+      "plan1": "Recueillement",
+      "plan1_features": ["Biographie & Dates", "Galerie Souvenir", "Livre Condoléances", "Hébergement 2 ans"],
+      "plan2": "Héritage",
+      "plan2_features": ["Offre Recueillement", "Bougies Virtuelles", "Timeline de Vie", "Hébergement 5 ans"],
+      "plan3": "Éternité",
+      "plan3_features": ["Design Sur Mesure", "Domaine personnalisé", "QR Code Tombe", "Multi-langues"]
+    }
   },
   "LegalText": {
     "section1_title": "1. Impressum",

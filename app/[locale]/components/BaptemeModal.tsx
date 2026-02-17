@@ -2,143 +2,82 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import { X, Check, ExternalLink, Smartphone, Shield, Globe, Droplets } from 'lucide-react';
 
-const OFFRE_BAPTEME = {
-  title: "Baptême",
-  subtitle: "Grâce & Lumière",
-  description: "Un moment de grâce mérite une invitation à sa hauteur. Invitez la famille et les proches avec élégance : programme de la cérémonie, carte GPS de l'église, et un recueil de vœux pour l'enfant qu'il pourra relire plus tard.",
-  demoLink: "https://bapteme.neocard.ch",
-  pricing: [
-    {
-      name: "Bénédiction",
-      price: "450 CHF",
-      features: [
-        "Faire-Part Digital Lumineux",
-        "Programme de la Cérémonie",
-        "Carte GPS Église & Réception",
-        "Formulaire RSVP Simple",
-        "Hébergement 1 an"
-      ]
-    },
-    {
-      name: "Sacrement",
-      price: "750 CHF",
-      tag: "Recommandé",
-      features: [
-        "Tout l'offre Bénédiction",
-        "Recueil de Vœux pour l'Enfant",
-        "Galerie Photo du Jour J",
-        "Livre d'Or Familial",
-        "Musique d'Ambiance Sacrée",
-        "Animation Lumineuse Immersive"
-      ]
-    },
-    {
-      name: "Céleste",
-      price: "Sur Devis",
-      features: [
-        "Design 100% Sur Mesure",
-        "Multi-langues pour famille élargie",
-        "Nom de domaine personnalisé",
-        "Vidéo d'Introduction Poétique",
-        "Impression QR Code Souvenir"
-      ]
-    }
-  ]
-};
-
 export default function BaptemeModal({ onClose }: { onClose: () => void }) {
+  const t = useTranslations('Modals.bapteme');
+  const tc = useTranslations('Common');
+  const demoLink = "https://bapteme.neocard.ch";
+
+  // Fonction pour rendre les listes dynamiquement depuis le JSON
+  const renderFeatures = (featuresKey: string, colorClass: string) => {
+    return t.raw(featuresKey).map((feature: string, index: number) => (
+      <li key={index} className="flex items-start gap-2 text-xs text-slate-400">
+        <Check size={12} className={`${colorClass} mt-0.5 shrink-0`} />
+        <span>{feature}</span>
+      </li>
+    ));
+  };
+
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/90 backdrop-blur-sm overflow-hidden">
       <div className="absolute inset-0" onClick={onClose} />
-
       <motion.div 
         initial={{ scale: 0.95, opacity: 0, y: 20 }} 
         animate={{ scale: 1, opacity: 1, y: 0 }} 
         exit={{ scale: 0.95, opacity: 0, y: 20 }}
         className="relative bg-slate-950 border border-white/10 w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-xl shadow-2xl flex flex-col md:flex-row z-10"
       >
-        <button 
-          onClick={onClose} 
-          className="absolute top-4 right-4 z-50 p-2 bg-black/60 border border-white/10 rounded-full text-white hover:bg-white hover:text-black transition-colors"
-        >
+        <button onClick={onClose} className="absolute top-4 right-4 z-50 p-2 bg-black/60 border border-white/10 rounded-full text-white hover:bg-white hover:text-black transition-colors">
           <X size={20} />
         </button>
 
-        {/* COLONNE GAUCHE */}
         <div className="w-full md:w-2/5 bg-sky-950/40 p-8 pt-12 md:pt-8 flex flex-col shrink-0 relative">
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-10 pointer-events-none" />
-          
           <div className="relative z-10">
-            <span className="text-sky-300 text-xs font-bold uppercase tracking-widest mb-2 block">{OFFRE_BAPTEME.subtitle}</span>
-            <h2 className="text-4xl font-serif text-white mb-6">{OFFRE_BAPTEME.title}</h2>
-            <p className="text-slate-400 text-sm leading-relaxed mb-8">{OFFRE_BAPTEME.description}</p>
-            
+            <span className="text-sky-300 text-xs font-bold uppercase tracking-widest mb-2 block">{t('subtitle')}</span>
+            <h2 className="text-4xl font-serif text-white mb-6">{t('title')}</h2>
+            <p className="text-slate-400 text-sm leading-relaxed mb-8">{t('description')}</p>
             <div className="space-y-4 mb-8">
-               <div className="flex items-center gap-3 text-slate-300 text-sm">
-                  <Smartphone size={16} className="text-sky-300"/> <span>100% Mobile Friendly</span>
-               </div>
-               <div className="flex items-center gap-3 text-slate-300 text-sm">
-                  <Globe size={16} className="text-sky-300"/> <span>Accessible sans application</span>
-               </div>
-               <div className="flex items-center gap-3 text-slate-300 text-sm">
-                  <Shield size={16} className="text-sky-300"/> <span>Données sécurisées en Suisse</span>
-               </div>
-               <div className="flex items-center gap-3 text-slate-300 text-sm">
-                  <Droplets size={16} className="text-sky-300"/> <span>Un souvenir pour la vie</span>
-               </div>
+               <div className="flex items-center gap-3 text-slate-300 text-sm"><Smartphone size={16} className="text-sky-300"/> <span>{tc('features.mobile')}</span></div>
+               <div className="flex items-center gap-3 text-slate-300 text-sm"><Globe size={16} className="text-sky-300"/> <span>{tc('features.noApp')}</span></div>
+               <div className="flex items-center gap-3 text-slate-300 text-sm"><Shield size={16} className="text-sky-300"/> <span>{tc('features.secure')}</span></div>
             </div>
           </div>
-
           <div className="mt-auto relative z-10">
-             <p className="text-xs text-slate-500 uppercase tracking-widest mb-3 text-center">Voir le résultat en direct</p>
-             <a 
-               href={OFFRE_BAPTEME.demoLink} 
-               target="_blank" 
-               rel="noopener noreferrer"
-               className="block w-full bg-sky-500 hover:bg-sky-400 text-white font-bold py-4 rounded-lg text-center transition-colors uppercase tracking-widest text-sm flex items-center justify-center gap-2"
-             >
-               Voir la Démo Live <ExternalLink size={16} />
+             <p className="text-xs text-slate-500 uppercase tracking-widest mb-3 text-center">{tc('viewLiveResult')}</p>
+             <a href={demoLink} target="_blank" rel="noopener noreferrer" className="block w-full bg-sky-500 hover:bg-sky-400 text-white font-bold py-4 rounded-lg text-center transition-colors uppercase tracking-widest text-sm flex items-center justify-center gap-2">
+               {tc('liveDemo')} <ExternalLink size={16} />
              </a>
           </div>
         </div>
 
-        {/* COLONNE DROITE : PRIX */}
         <div className="w-full md:w-3/5 p-8 bg-black">
-           <h3 className="text-xl font-serif text-white mb-8 border-b border-white/10 pb-4 md:mt-0 mt-4">Nos Formules</h3>
-
+           <h3 className="text-xl font-serif text-white mb-8 border-b border-white/10 pb-4 md:mt-0 mt-4">{tc('ourFormulas')}</h3>
            <div className="grid gap-4">
-             {OFFRE_BAPTEME.pricing.map((plan, i) => (
-               <div key={i} className={`relative p-5 rounded-lg border transition-all ${plan.tag ? 'border-sky-500/40 bg-sky-900/10' : 'border-white/10 bg-white/5 hover:border-white/20'}`}>
-                  
-                  {plan.tag && (
-                    <span className="absolute -top-2 right-4 bg-sky-500 text-white text-[9px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm">
-                      {plan.tag}
-                    </span>
-                  )}
-
-                  <div className="flex justify-between items-end mb-3">
-                     <h4 className={`text-base font-bold ${plan.tag ? 'text-sky-300' : 'text-white'}`}>{plan.name}</h4>
-                     <div className="text-lg font-serif text-white">{plan.price}</div>
-                  </div>
-
-                  <ul className="grid grid-cols-1 gap-2">
-                     {plan.features.map((feature, j) => (
-                       <li key={j} className="flex items-start gap-2 text-xs text-slate-400">
-                         <Check size={12} className="text-sky-400 mt-0.5 shrink-0" />
-                         <span>{feature}</span>
-                       </li>
-                     ))}
-                  </ul>
-               </div>
-             ))}
-           </div>
-           
-           <div className="mt-6 text-center">
-             <a href="mailto:contact@neocard.ch" className="text-xs text-slate-500 hover:text-white transition-colors underline decoration-slate-700">
-               Besoin d'un devis personnalisé ? Contactez-nous.
-             </a>
+             <div className="p-5 rounded-lg border border-white/10 bg-white/5 hover:border-white/20 transition-all">
+                <div className="flex justify-between items-end mb-3">
+                   <h4 className="text-base font-bold text-white">{t('plan1')}</h4>
+                   <div className="text-lg font-serif text-white">450 CHF</div>
+                </div>
+                <ul className="grid grid-cols-1 gap-2">{renderFeatures('plan1_features', 'text-sky-400')}</ul>
+             </div>
+             <div className="relative p-5 rounded-lg border border-sky-500/40 bg-sky-900/10 transition-all">
+                <span className="absolute -top-2 right-4 bg-sky-500 text-white text-[9px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm">{tc('recommended')}</span>
+                <div className="flex justify-between items-end mb-3">
+                   <h4 className="text-base font-bold text-sky-300">{t('plan2')}</h4>
+                   <div className="text-lg font-serif text-white">750 CHF</div>
+                </div>
+                <ul className="grid grid-cols-1 gap-2">{renderFeatures('plan2_features', 'text-sky-400')}</ul>
+             </div>
+             <div className="p-5 rounded-lg border border-white/10 bg-white/5 hover:border-white/20 transition-all">
+                <div className="flex justify-between items-end mb-3">
+                   <h4 className="text-base font-bold text-white">{t('plan3')}</h4>
+                   <div className="text-lg font-serif text-white">{tc('onQuote')}</div>
+                </div>
+                <ul className="grid grid-cols-1 gap-2">{renderFeatures('plan3_features', 'text-sky-400')}</ul>
+             </div>
            </div>
         </div>
       </motion.div>

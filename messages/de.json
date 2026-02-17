@@ -1,10 +1,30 @@
-{"SEO": {
+{
+  "SEO": {
     "title": "NeoCard - Digitale Premium-Einladungen aus der Schweiz",
     "description": "Entdecken Sie die Zukunft der Einladungen. Immersive Web-Erlebnisse und Haute-Couture-Designs für Hochzeiten, Geburten und Firmenevents."
   },
   "Common": {
     "see_details": "Details ansehen",
-    "based_in": "Ansässig im Wallis, Schweiz"
+    "based_in": "Ansässig im Wallis, Schweiz",
+    "ourFormulas": "Unsere Pakete",
+    "liveDemo": "Live-Demo ansehen",
+    "viewLiveResult": "Live-Ergebnis ansehen",
+    "customQuote": "Benötigen Sie ein individuelles Angebot? Kontaktieren Sie uns.",
+    "humanSupport": "Ein sensibler Moment verdient menschliche Unterstützung. Kontaktieren Sie uns.",
+    "recommended": "Empfohlen",
+    "popular": "Beliebt",
+    "bestSeller": "Bestseller",
+    "mostChosen": "Am häufigsten gewählt",
+    "wowEffect": "Wow-Effekt",
+    "funGuaranteed": "Spaß garantiert",
+    "onQuote": "Auf Anfrage",
+    "features": {
+      "mobile": "100% Mobilfreundlich",
+      "noApp": "Keine App erforderlich",
+      "secure": "Daten sicher in der Schweiz",
+      "multilingual": "Mehrsprachig integriert",
+      "password": "Passwortgeschützt"
+    }
   },
   "Hero": {
     "tagline": "Die digitale Einladung",
@@ -119,7 +139,128 @@
     "form_message": "Nachricht",
     "form_message_ph": "Eventdetails...",
     "form_btn": "Meine Anfrage senden",
-    "form_error": "Verbindungsfehler mit dem Server."
+    "form_error": "Verbindungsfehler mit dem Server.",
+    "bapteme": {
+      "title": "Taufe",
+      "subtitle": "Gnade & Licht",
+      "description": "Ein Moment der Gnade verdient eine entsprechende Einladung. Laden Sie Familie und Freunde mit Eleganz ein: Zeremonieprogramm, GPS-Karte der Kirche und eine Sammlung von Wünschen für das Kind, die es später lesen kann.",
+      "plan1": "Segen",
+      "plan1_features": ["Leuchtende digitale Einladung", "Zeremonieprogramm", "GPS-Karte der Kirche", "Einfaches RSVP-Formular", "1 Jahr Hosting"],
+      "plan2": "Sakrament",
+      "plan2_features": ["Alle Leistungen von Segen", "Wunschsammlung für das Kind", "Fotogalerie", "Familien-Gästebuch", "Hintergrundmusik"],
+      "plan3": "Himmlisch",
+      "plan3_features": ["100% individuelles Design", "Integrierte Mehrsprachigkeit", "Eigener Domainname", "Animiertes Intro-Video"]
+    },
+    "mariage": {
+      "title": "Hochzeit",
+      "subtitle": "Heiliger Bund",
+      "description": "Vergessen Sie Papiereinladungen, die im Müll landen. Bieten Sie Ihren Gästen ein immersives Erlebnis, das Ihrer Verbindung würdig ist. Zeitplan, intelligentes RSVP, Live-Galerie und Audio-Gästebuch.",
+      "plan1": "Essenziell",
+      "plan1_features": ["Design-Einladungswebsite", "Programm & GPS-Route", "Einfaches RSVP-Formular", "Animierter Countdown", "1 Jahr Hosting"],
+      "plan2": "Prestige",
+      "plan2_features": ["Alle Leistungen von Essenziell", "Live Foto- & Videogalerie", "Audio-Gästebuch (Sprachnachrichten)", "Erweitertes RSVP-Formular", "Excel-Gästeverwaltung"],
+      "plan3": "Exzellenz",
+      "plan3_features": ["100% individuelles Design", "Mehrsprachig (DE/FR/EN)", "Eigener Domainname", "Persönliche Betreuung für das Paar", "Spezielle 3D-Animationen"]
+    },
+    "naissance": {
+      "title": "Geburt",
+      "subtitle": "Erster Atemzug",
+      "description": "Weit mehr als eine Anzeige. Teilen Sie Ihr kleines Wunder mit einer immersiven Seite: animierte Namensenthüllung, Baby-Statistiken, erste Fotos und integrierte Geburtsliste.",
+      "plan1": "Kleines Herz",
+      "plan1_features": ["Animierte digitale Anzeige", "Animierte Baby-Stats (Gewicht, Größe)", "Fotogalerie", "1 Jahr Hosting"],
+      "plan2": "Stern",
+      "plan2_features": ["Alle Leistungen von Kleines Herz", "Integrierte Geburtsliste", "Willkommens-Gästebuch", "Besucherzähler", "Hintergrundmusik"],
+      "plan3": "Wunder",
+      "plan3_features": ["100% individuelles Design", "Kinoreifes Intro-Video", "Eigener Domainname", "Blog für die ersten Monate", "QR-Code für Bilderrahmen-Druck"]
+    },
+    "bar": {
+      "title": "Bar Mitzwa",
+      "subtitle": "Heiliger Bund",
+      "description": "Feiern Sie diesen Übergang zur Reife mit einer digitalen Einladung, die dem Anlass gerecht wird. Erklären Sie die Parascha, verwalten Sie internationale Gäste und veredeln Sie jeden Moment der Feier.",
+      "plan1": "Essenziell",
+      "plan1_features": ["Elegante Einladungswebsite", "Zeremonieprogramm", "Einfaches RSVP-Formular", "Animierter Countdown", "1 Jahr Hosting"],
+      "plan2": "Prestige",
+      "plan2_features": ["Alle Leistungen von Essenziell", "Interaktive Parascha-Erklärung", "Audio-Gästebuch", "Mehrsprachiges RSVP", "Excel-Gästeverwaltung"],
+      "plan3": "Exzellenz",
+      "plan3_features": ["100% individuelles Design", "Individuelle hebräische Animationen", "Persönliche Familienbetreuung", "Kinoreifes Intro-Video"]
+    },
+    "anniv": {
+      "title": "Geburtstag & Jubiläum",
+      "subtitle": "Das neu erfundene Fest",
+      "description": "18, 30, 50 oder 100 Jahre alt — jedes Jahrzehnt verdient seine digitale Hülle. Eine interaktive Retrospektive, ein Erinnerungszähler und eine Einladung, die den Ton für die Party angibt.",
+      "plan1": "Festlich",
+      "plan1_features": ["Thematische Einladungswebsite", "Animierter Countdown", "Einfaches RSVP-Formular", "GPS-Karte", "1 Jahr Hosting"],
+      "plan2": "Unvergesslich",
+      "plan2_features": ["Alle Leistungen von Festlich", "Interaktive Foto-Retrospektive", "Digitales Gästebuch (Text/Audio)", "Gemeinsame Spotify-Playlist", "Interaktives Gäste-Quiz"],
+      "plan3": "Legendär",
+      "plan3_features": ["100% individuelles Design", "Animiertes Retrospektive-Video", "Eigener Domainname", "Integrierte Online-Kasse", "Individuelle Animationen"]
+    },
+    "communion": {
+      "title": "Kommunion",
+      "subtitle": "Inneres Licht",
+      "description": "Ein wichtiger spiritueller Schritt verdient es, mit Anmut geteilt zu werden. Eine leuchtende und schlichte Seite, um Ihre Lieben einzuladen und Ermutigung zu sammeln.",
+      "plan1": "Reinheit",
+      "plan1_features": ["Elegante digitale Anzeige", "Zeremonieprogramm", "GPS-Karte (Kirche & Location)", "Einfaches RSVP-Formular", "1 Jahr Hosting"],
+      "plan2": "Harmonie",
+      "plan2_features": ["Alle Leistungen von Reinheit", "Botschaftenwand für das Kind", "Fotogalerie vom Tag", "Animierter Countdown", "Individuelle Hintergrundmusik"],
+      "plan3": "Ewigkeit",
+      "plan3_features": ["100% individuelles Design", "Animiertes Intro-Video", "Eigener Domainname", "Mehrsprachige Unterstützung", "QR-Code Souvenir-Druck"]
+    },
+    "corporate": {
+      "title": "Corporate Event",
+      "subtitle": "Professionelle Exzellenz",
+      "description": "Konferenzen, Produkteinführungen, Firmen-Galas — Ihre Marke verdient eine Einladung, die Ihrem Image entspricht. Eine maßgeschneiderte Event-Website mit Registrierungsmanagement.",
+      "plan1": "Starter",
+      "plan1_features": ["Professionelle Eventseite", "Interaktives Programm & Agenda", "Anmelde- / RSVP-Formular", "Farben & Logo Branding", "1 Jahr Hosting"],
+      "plan2": "Business",
+      "plan2_features": ["Alle Leistungen von Starter", "Multi-Session / Workshop Management", "Referentenprofile", "Excel-Datenexport", "Besucher-Analytics & Statistiken"],
+      "plan3": "Enterprise",
+      "plan3_features": ["100% individuelles Design", "CRM / Mailchimp Integration", "Online-Ticketing / Zahlung", "Mehrsprachig (DE/FR/EN/IT)", "Eigener Domainname"]
+    },
+    "evjf": {
+      "title": "Junggesellenabschied",
+      "subtitle": "Die Party vor der Party",
+      "description": "Überraschen Sie die zukünftige Braut oder den Bräutigam mit einer geheimen Seite, die das Programm Schritt für Schritt enthüllt. Challenges, Countdown und Koordinaten — Geheimhaltung garantiert.",
+      "plan1": "Komplize",
+      "plan1_features": ["Passwortgeschützte geheime Seite", "Wochenend- / Abendprogramm", "GPS-Karten der Orte", "Mystery Countdown", "3 Monate Hosting"],
+      "plan2": "Wahnsinn",
+      "plan2_features": ["Alle Leistungen von Komplize", "Interaktive Challenge-Liste", "Integrierte Gemeinschaftskasse", "Gemeinsame Fotogalerie", "Gemeinsame Spotify-Playlist"],
+      "plan3": "Episch",
+      "plan3_features": ["100% individuelles Design", "Individuelles interaktives Mini-Game", "Integriertes Überraschungsvideo", "Eigener Domainname", "Koordination mehrerer Organisatoren"]
+    },
+    "proposal": {
+      "title": "Heiratsantrag",
+      "subtitle": "Der Funke — Der ultimative Moment",
+      "description": "Sie haben den Ring. Wir haben das Drehbuch. Ein interaktives mobiles Erlebnis, das die Spannung bis zur entscheidenden Frage aufbaut. Freudentränen garantiert.",
+      "plan1": "Funke",
+      "plan1_features": ["Immersives mobiles Erlebnis", "Zeitleiste der Liebesgeschichte", "Paar-Fotogalerie", "Animierte Fragenenthüllung", "Individuelle Musik", "6 Monate Hosting"],
+      "plan2": "Liebe auf den ersten Blick",
+      "plan2_features": ["Alle Leistungen von Funke", "Personalisiertes narratives Skript", "Kinoreife Animationen", "Mystery Countdown", "Geheimer geschützter Link"],
+      "plan3": "Ewig",
+      "plan3_features": ["100% individuelles Design", "Animierter Paar-Minifilm", "3D- & Partikeleffekte", "Fotografen-Koordination", "Eigener Domainname"]
+    },
+    "retraite": {
+      "title": "Ruhestand",
+      "subtitle": "Die Stunde des Ruhms",
+      "description": "30 Jahre Karriere lassen sich nicht in einem einfachen Umtrunk zusammenfassen. Bieten Sie eine immersive Seite mit Zeugnissen des gesamten Teams und einer Karriere-Retrospektive.",
+      "plan1": "Gesellig",
+      "plan1_features": ["Design-Einladungswebsite", "Animierter Countdown", "Einfaches RSVP-Formular", "Praktische Infos & Karten", "1 Jahr Hosting"],
+      "plan2": "Ehrung",
+      "plan2_features": ["Alle Leistungen von Gesellig", "Video-Gästebuch der Kollegen", "Animierte Karriere-Retrospektive", "Fotogalerie der Schlüsselmomente", "Integrierte Gemeinschaftskasse"],
+      "plan3": "Prestige",
+      "plan3_features": ["100% individuelles Design", "Recap-Videoschnitt", "Integriertes Firmenbranding", "Eigener Domainname", "Persönliche Unterstützung"]
+    },
+    "memorial": {
+      "title": "Gedenken & Ehrung",
+      "subtitle": "Digitale Ewigkeit",
+      "description": "Weil Zeitungen verblassen, aber das Web bleibt. Bieten Sie Familien einen ewigen Zufluchtsort: Biografie, Fotogalerie und unsere exklusiven virtuellen Kerzen.",
+      "plan1": "Besinnung",
+      "plan1_features": ["Schlichte & elegante Gedenkseite", "Biografie & wichtige Daten", "Erinnerungs-Fotogalerie", "Digitales Kondolenzbuch", "2 Jahre Hosting"],
+      "plan2": "Erbe",
+      "plan2_features": ["Alle Leistungen von Besinnung", "Interaktive virtuelle Kerzen", "Animiertes Erinnerungsvideo", "Interaktive Lebenszeitleiste", "5 Jahre Hosting"],
+      "plan3": "Ewigkeit",
+      "plan3_features": ["100% individuelles Design", "Eigener Domainname", "Perpetuales Hosting (10+ Jahre)", "QR-Code für Grab / Urne", "Mehrsprachige Unterstützung"]
+    }
   },
   "LegalText": {
     "section1_title": "1. Impressum",
